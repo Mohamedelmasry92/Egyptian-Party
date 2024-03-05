@@ -1,0 +1,175 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+header{
+    height: 99vh;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+ .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+header .overlay h1{
+    font-size: 60px;
+}
+header .overlay p{
+    font-size: 14px;
+}
+header .overlay #open{
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+header .overlay #open i{
+    margin-right: 5px;
+}
+header #slide{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    width: 300px;
+    height: 100vh;
+    z-index: 999;
+    background-color: #444;
+    display: none;
+}
+header .slide ul{
+    padding: 80px 0px 0px 40px;
+}
+header .slide li{
+    padding-top: 30px;
+    cursor: pointer;
+}
+header .slide a{
+    font-size: 28px;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+header .slide li:hover a , header .slide i:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+header .slide i{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+
+#details {
+    padding: 100px 0;
+    width: 50%;
+    margin: auto;
+}
+
+#details h3{
+    background-color: rgba(214, 46, 51, 0.6);
+    margin: 0;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+}
+#details div{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+
+
+
+#duration{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 25rem;
+}
+#duration .boxWhite div{
+    border: 1px solid white;
+    font-size: 24px;
+}
+#duration #danger{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+
+
+footer{
+    margin: 200px 0 80px;
+}
+footer p{
+    color: #777;
+    line-height: 26px;
+}
+footer h2{
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+}
+footer h6{
+    color: #444;
+    font-weight: 800;
+}
+footer button{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 0;
+    font-size: 14px;
+}
+footer .special , footer span{
+    color: #D62E33;
+}
+footer span{
+    font-size: 20px;
+}
+footer .social div i{
+    color: #777;
+}
+footer .social div{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #777;
+    cursor: pointer;
+}
+footer .social div:hover{
+    background-color: #D62E33;
+    color: #fff;
+    border: 1px solid #D62E33;
+}
+footer .social div:hover i{
+    color: #fff;
+}
+footer input::placeholder ,footer textarea::placeholder{
+    color: #777 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
